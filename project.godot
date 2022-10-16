@@ -21,11 +21,17 @@ _global_script_class_icons={
 [application]
 
 config/name="Trijam169"
+run/main_scene="res://World.tscn"
 config/icon="res://icon.png"
 
 [display]
 
 window/size/resizable=false
+
+[editor]
+
+version_control_autoload_on_startup=true
+version_control_plugin_name="GitAPI"
 
 [gui]
 
