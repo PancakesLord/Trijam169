@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [  ],
+"loop": true,
+"name": "Attacking",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "Idle_front",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "Moving",
+"speed": 5.0
+} ]
+
+[node name="Player" type="KinematicBody2D"]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Idle_front"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
