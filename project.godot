@@ -23,10 +23,16 @@ _global_script_class_icons={
 config/name="Trijam169"
 config/icon="res://icon.png"
 
+<<<<<<< HEAD
+[display]
+
+window/size/resizable=false
+=======
 [editor]
 
 version_control_autoload_on_startup=true
 version_control_plugin_name="GitAPI"
+>>>>>>> origin/main
 
 [gui]
 
@@ -35,7 +41,9 @@ common/drop_mouse_on_gui_input_disabled=true
 [physics]
 
 common/enable_pause_aware_picking=true
+2d/thread_model=2
 
 [rendering]
 
+threads/thread_model=2
 environment/default_environment="res://default_env.tres"
